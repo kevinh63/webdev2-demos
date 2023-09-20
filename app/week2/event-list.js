@@ -1,13 +1,13 @@
-export default function EventList() {
+export default function EventList() { //remember for function names use camel case (BigLetter)
   return (
-    <>
+    <main> 
       <div>
         <h2>Community Picnic</h2>
-        <p>Date: September 10, 2023</p>
+        <p>Date: September 10, 2023</p>   
         <p>Location: Central Park</p>
       </div>
 
-      <div>
+      <div>    
         <h2>Charity Fun Run!!</h2>
         <p>Date: October 15, 2023</p>
         <p>Location: City Sports Complex</p>
@@ -30,6 +30,6 @@ export default function EventList() {
         <p>Date: January 20, 2024</p>
         <p>Location: City Art Gallery</p>
       </div>
-    </>
+    </main>
   );
 }
